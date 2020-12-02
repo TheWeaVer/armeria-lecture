@@ -32,6 +32,7 @@ class ReactiveStreamsPublisherTest {
         System.err.println(aggregatedHttpResponse.contentUtf8());
     }
 
+    // 구현 난이도가 상당히 있는 편이다.
     @Test
     void customPublisher() {
 //        final MyHttpResponse res = new MyHttpResponse();
